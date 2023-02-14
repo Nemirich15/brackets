@@ -1,18 +1,18 @@
 
 
-
-module.exports = function check(str, bracketsConfig) {
-  
   const openBrackets = ['(', '{', '[', '|'];
 
 
- const bracketsConfig = {
-  ['(']: ')',
-  ['{']: '}',
-  ['[']: ']',
-  ['|']: '|',
- };
+  const bracketsConfig = {
+    ['(']: ')',
+    ['{']: '}',
+    ['[']: ']',
+    ['|']: '|',
+  };
  
+module.exports = function check(str, bracketsConfig) {
+  
+
   
   let stack = [];
 
